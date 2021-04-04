@@ -5,24 +5,28 @@
   font-family: Lato, sans-serif;
 }
 
-.about-wrapper {
+.about {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.about-wrapper .image {
+.about .image {
   width: 100%;
 }
 
-.about-wrapper .more-inf {
+.about .more-inf {
   font-family: fantasy, cursive;
+}
+
+#add-wrapper {
+  margin: 1em 0;
 }
 
 @media (max-width: 768px) {
 
-  .about-wrapper {
+  .about {
     text-align: center;
   }
 
@@ -43,6 +47,7 @@
 
 .task-row-wrapper {
   display: flex;
+  margin-top: 1em;
 }
 
 .list {
